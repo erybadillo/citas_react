@@ -1,6 +1,6 @@
 function Pacientes(){
     return(
-        <h2>Este es un mensaje del Paciente</h2>
+        <h2>Formulario de Pacientes</h2>
     )
 }
 export default Pacientes

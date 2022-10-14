@@ -8,14 +8,15 @@ import Pacientes from "./componentes/Pacientes"
 function App() {
 
   return (
-    <>
-    <Header/>
-    <ListadoPaciente/>
-    <Formulario/>
-    <Error/>
-    <Pacientes/>
+    <div className="container mx-auto mt-15">
+      <Header />
+      <ListadoPaciente />
+      <Formulario />
+      <Pacientes />
+      <Error />
 
-    </>
+
+    </div>
   )
 }
 export default App
